@@ -85,6 +85,7 @@ class Colors:
 			
 		return next_color
 
+
 class OverPass:
 	def __init__(self, info, sat, observer):
 		self.rise_time = parser.parse(str(info[0])).replace(tzinfo=pytz.UTC)
